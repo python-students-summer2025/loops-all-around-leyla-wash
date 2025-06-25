@@ -1,9 +1,9 @@
 def get_starting_number():
     while True:
         try:
-            num = int(input("How many bottles of beer on the wall? "))
-            if num >= 1:
-                return num
+            number = int(input("How many bottles of beer on the wall? "))
+            if number >= 1:
+                return number
             else:
                 print("Please enter an integer 1 or greater.")
         except ValueError:
